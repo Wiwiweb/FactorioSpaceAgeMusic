@@ -1,6 +1,6 @@
 {
     "name": "space-age-music-without-space-age",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Space Age music without Space Age",
     "author": "Wiwiweb",
     "dependencies": ["base >= 2.0.59", "!space-age", "!all-music-everywhere", "!world-wide-music"],
