@@ -56,7 +56,11 @@ for name, sound in pairs(original_ambient_sounds) do
         for _, location in pairs(locations) do
             local new_sound = table.deepcopy(sound)
             new_sound.name = sound.name .. "-for-" .. location
-            new_sound.planet = location == "space" and nil or location
+            if location == "space" then
+                new_sound.planet = nil
+            else
+                new_sound.planet = location
+            end
             table.insert(new_ambient_sounds, new_sound)
         end
         table.insert(track_names_per_type[sound.track_type], name)
