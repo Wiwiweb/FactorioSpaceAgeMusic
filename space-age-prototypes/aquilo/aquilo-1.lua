@@ -18,7 +18,7 @@ return
         name = "A",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-1/aquilo-1-a", 1, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-1/aquilo-1-a", 1, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -27,7 +27,7 @@ return
         name = "B",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-1/aquilo-1-b", 4, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-1/aquilo-1-b", 4, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -36,7 +36,7 @@ return
         name = "C",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-1/aquilo-1-c", 16, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-1/aquilo-1-c", 16, 1.4)
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,
@@ -47,7 +47,7 @@ return
         name = "D",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-1/aquilo-1-d", 8, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-1/aquilo-1-d", 8, 1.4)
         },
         composition_mode = "randomized",
       },

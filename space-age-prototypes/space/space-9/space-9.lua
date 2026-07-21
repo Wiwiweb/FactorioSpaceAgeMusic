@@ -23,16 +23,16 @@ return
         name = "Random 1",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-a", 24, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-b", 72, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-c", 72, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-d", 72, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-e", 24, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-g", 24, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-h", 24, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-i", 72, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-j", 24, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-n", 72, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-a", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-b", 72, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-c", 72, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-d", 72, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-e", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-g", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-h", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-i", 72, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-j", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-n", 72, 1.4),
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,
@@ -42,8 +42,8 @@ return
         name = "Random 2",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-a", 24, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-h", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-a", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-h", 24, 1.4),
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,
@@ -53,7 +53,7 @@ return
         name = "Random 3",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-m", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-m", 24, 1.4),
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,
@@ -64,11 +64,11 @@ return
         name = "Layer controlled 1-3",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-b", 72, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-c", 72, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-d", 72, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-i", 72, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-n", 72, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-b", 72, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-c", 72, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-d", 72, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-i", 72, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-n", 72, 1.4),
         },
         composition_mode = "layer-controlled",
         control_layer = "Random 1",
@@ -86,10 +86,10 @@ return
         name = "Layer controlled 1-1",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-bas", 24, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-e", 24, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-g", 24, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-j", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-bas", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-e", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-g", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-j", 24, 1.4),
         },
         composition_mode = "layer-controlled",
         control_layer = "Random 1",
@@ -106,7 +106,7 @@ return
         name = "RH",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-rh", 4, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-rh", 4, 1.4),
         },
         composition_mode = "randomized",
       },
@@ -114,7 +114,7 @@ return
         name = "Ambi",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-ambi", 4, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-ambi", 4, 1.4),
         },
         composition_mode = "randomized",
       },
@@ -122,7 +122,7 @@ return
         name = "Final",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/space/space-9/space-9-final", 24, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/space/space-9/space-9-final", 24, 1.4),
         },
         composition_mode = "layer-controlled",
         control_layer = "Random 3",

@@ -17,7 +17,7 @@ return
         name = "A",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/interlude-1/interlude-1-a", 9, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/interlude-1/interlude-1-a", 9, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -26,7 +26,7 @@ return
         name = "B",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/interlude-1/interlude-1-b", 7, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/interlude-1/interlude-1-b", 7, 1.4)
         },
         composition_mode = "randomized"
       },
@@ -35,7 +35,7 @@ return
         name = "C",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/interlude-1/interlude-1-c", 5, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/interlude-1/interlude-1-c", 5, 1.4)
         },
         composition_mode = "randomized"
       },
@@ -44,7 +44,7 @@ return
         name = "D",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/interlude-1/interlude-1-d", 2, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/interlude-1/interlude-1-d", 2, 1.4)
         },
         composition_mode = "randomized"
       },

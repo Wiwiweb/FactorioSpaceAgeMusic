@@ -17,7 +17,7 @@ return
         name = "A1",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-7/aquilo-7-a", 16, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-7/aquilo-7-a", 16, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -25,7 +25,7 @@ return
         name = "A2",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-7/aquilo-7-a", 16, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-7/aquilo-7-a", 16, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -33,7 +33,7 @@ return
         name = "A3",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-7/aquilo-7-a", 16, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-7/aquilo-7-a", 16, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -41,7 +41,7 @@ return
         name = "C",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-7/aquilo-7-c", 32, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-7/aquilo-7-c", 32, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "A1",
@@ -69,7 +69,7 @@ return
         name = "D",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-7/aquilo-7-d", 24, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-7/aquilo-7-d", 24, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "A2",
@@ -97,7 +97,7 @@ return
         name = "E",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-7/aquilo-7-e", 24, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-7/aquilo-7-e", 24, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "A3",
@@ -122,7 +122,7 @@ return
         },
       },
     }, -- layers
-    intermezzo = {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-7/aquilo-7-intermezzo.ogg", volume = 1.4,},
+    intermezzo = {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-7/aquilo-7-intermezzo.ogg", volume = 1.4,},
 
     states =
     {

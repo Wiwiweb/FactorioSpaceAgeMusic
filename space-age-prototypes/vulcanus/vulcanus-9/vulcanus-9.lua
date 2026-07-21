@@ -17,7 +17,7 @@ return
         name = "A",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-9/vulcanus-9-a", 12, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-9/vulcanus-9-a", 12, 1.4)
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,
@@ -28,9 +28,9 @@ return
         name = "BCD",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-9/vulcanus-9-b", 16, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-9/vulcanus-9-c", 16, 1.4),
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-9/vulcanus-9-d", 16, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-9/vulcanus-9-b", 16, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-9/vulcanus-9-c", 16, 1.4),
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-9/vulcanus-9-d", 16, 1.4),
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,
@@ -41,14 +41,14 @@ return
         name = "E",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-9/vulcanus-9-e", 8, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-9/vulcanus-9-e", 8, 1.4)
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,
         sublayer_offset = 4,
       },
     }, --layers
-    intermezzo = {filename = Space_age_path .. "/sound/ambient/vulcanus/vulcanus-9/vulcanus-9-intermezzo.ogg", volume = 1.4,},
+    intermezzo = {filename = Space_age_ambient_folder_path .. "/vulcanus/vulcanus-9/vulcanus-9-intermezzo.ogg", volume = 1.4,},
 
     states =
     {

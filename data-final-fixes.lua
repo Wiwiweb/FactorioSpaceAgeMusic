@@ -1,5 +1,4 @@
--- Devs please don't patch 🙏
-Space_age_path = "__base__/../space-age"
+Space_age_ambient_folder_path = "__space-age-music-without-space-age__/space-age-sound-ambient-folder"
 
 require("space-age-prototypes/ambient-sounds")
 

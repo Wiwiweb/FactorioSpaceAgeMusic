@@ -17,7 +17,7 @@ return
         name = "AA",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/gleba-11/gleba-11-aa", 14, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/gleba-11/gleba-11-aa", 14, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -25,7 +25,7 @@ return
         name = "AB",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/gleba-11/gleba-11-ab", 13, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/gleba-11/gleba-11-ab", 13, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -34,7 +34,7 @@ return
         name = "BA",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/gleba-11/gleba-11-ba", 6, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/gleba-11/gleba-11-ba", 6, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -42,7 +42,7 @@ return
         name = "BB",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/gleba-11/gleba-11-bb", 12, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/gleba-11/gleba-11-bb", 12, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -51,7 +51,7 @@ return
         name = "CA",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/gleba-11/gleba-11-ca", 7, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/gleba-11/gleba-11-ca", 7, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -59,7 +59,7 @@ return
         name = "CB",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/gleba-11/gleba-11-cb", 10, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/gleba-11/gleba-11-cb", 10, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -68,7 +68,7 @@ return
         name = "DA",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/gleba-11/gleba-11-da", 1, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/gleba-11/gleba-11-da", 1, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -76,7 +76,7 @@ return
         name = "DB",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/gleba-11/gleba-11-db", 1, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/gleba-11/gleba-11-db", 1, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -85,7 +85,7 @@ return
         name = "EA",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/gleba-11/gleba-11-ea", 11, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/gleba-11/gleba-11-ea", 11, 1.4)
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,
@@ -105,7 +105,7 @@ return
         name = "EB",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/gleba/gleba-11/gleba-11-eb", 27, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/gleba/gleba-11/gleba-11-eb", 27, 1.4)
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,

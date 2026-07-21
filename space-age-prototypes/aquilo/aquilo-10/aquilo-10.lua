@@ -17,7 +17,7 @@ return
         name = "FX",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-fx", 5, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-fx", 5, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -25,25 +25,25 @@ return
         name = "A",
         variants =
         {
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-1.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-2.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-3.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-4.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-5.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-6.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-7.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-8.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-9.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-10.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-11.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-12.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-13.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-14.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-1.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-2.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-3.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-4.ogg", volume = 1.4},
-          {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-a-long-5.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-1.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-2.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-3.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-4.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-5.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-6.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-7.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-8.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-9.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-10.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-11.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-12.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-13.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-14.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-long-1.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-long-2.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-long-3.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-long-4.ogg", volume = 1.4},
+          {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-a-long-5.ogg", volume = 1.4},
         },
         composition_mode = "randomized",
       },
@@ -51,7 +51,7 @@ return
         name = "B",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-b", 5, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-b", 5, 1.4)
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,
@@ -70,7 +70,7 @@ return
         name = "C",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-c", 7, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-c", 7, 1.4)
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,
@@ -89,7 +89,7 @@ return
         name = "D",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-10/aquilo-10-d", 8, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-10/aquilo-10-d", 8, 1.4)
         },
         composition_mode = "randomized",
         number_of_sublayers = 2,

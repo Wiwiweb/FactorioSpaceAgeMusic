@@ -17,7 +17,7 @@ return
         name = "A1",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-10/vulcanus-10-a", 3, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-10/vulcanus-10-a", 3, 1.4)
         },
         composition_mode = "randomized",
         sample_length = 16,
@@ -26,7 +26,7 @@ return
         name = "A2",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-10/vulcanus-10-a", 3, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-10/vulcanus-10-a", 3, 1.4)
         },
         composition_mode = "randomized",
         sample_length = 16,
@@ -35,7 +35,7 @@ return
         name = "B1",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-10/vulcanus-10-b", 3, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-10/vulcanus-10-b", 3, 1.4)
         },
         composition_mode = "randomized",
         sample_length = 16,
@@ -44,7 +44,7 @@ return
         name = "B2",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-10/vulcanus-10-b", 3, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-10/vulcanus-10-b", 3, 1.4)
         },
         composition_mode = "randomized",
         sample_length = 16,
@@ -53,7 +53,7 @@ return
         name = "C1",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-10/vulcanus-10-c", 12, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-10/vulcanus-10-c", 12, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "A1",
@@ -69,7 +69,7 @@ return
         name = "C2",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-10/vulcanus-10-c", 12, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-10/vulcanus-10-c", 12, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "A2",
@@ -87,7 +87,7 @@ return
         name = "C3",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-10/vulcanus-10-c", 12, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-10/vulcanus-10-c", 12, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "C4",
@@ -115,7 +115,7 @@ return
         name = "C4",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/vulcanus/vulcanus-10/vulcanus-10-c", 12, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/vulcanus/vulcanus-10/vulcanus-10-c", 12, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "C3",

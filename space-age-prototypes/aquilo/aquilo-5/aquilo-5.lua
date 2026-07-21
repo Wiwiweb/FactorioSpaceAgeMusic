@@ -17,7 +17,7 @@ return
         name = "A-1",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-5/aquilo-5-a", 6, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-5/aquilo-5-a", 6, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -25,7 +25,7 @@ return
         name = "Melody A-1",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-5/aquilo-5-melodya", 18, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-5/aquilo-5-melodya", 18, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "A-1",
@@ -43,7 +43,7 @@ return
         name = "Melody B-1",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-5/aquilo-5-melodyb", 18, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-5/aquilo-5-melodyb", 18, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "A-1",
@@ -62,7 +62,7 @@ return
         name = "A-2",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-5/aquilo-5-a", 6, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-5/aquilo-5-a", 6, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -70,7 +70,7 @@ return
         name = "Melody A-2",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-5/aquilo-5-melodya", 18, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-5/aquilo-5-melodya", 18, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "A-2",
@@ -88,7 +88,7 @@ return
         name = "Melody B-2",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/aquilo/aquilo-5/aquilo-5-melodyb", 18, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/aquilo/aquilo-5/aquilo-5-melodyb", 18, 1.4)
         },
         composition_mode = "layer-controlled",
         control_layer = "A-2",
@@ -103,7 +103,7 @@ return
         },
       },
     }, -- layers
-    intermezzo = {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-5/aquilo-5-intermezzo.ogg", volume = 1.4,},
+    intermezzo = {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-5/aquilo-5-intermezzo.ogg", volume = 1.4,},
 
     states =
     {

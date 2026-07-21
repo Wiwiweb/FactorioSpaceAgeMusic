@@ -17,7 +17,7 @@ return
         name = "A",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/fulgora/interlude-2/interlude-2-a", 6, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/fulgora/interlude-2/interlude-2-a", 6, 1.4)
         },
         composition_mode = "randomized",
       },
@@ -26,7 +26,7 @@ return
         name = "B",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/fulgora/interlude-2/interlude-2-b", 2, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/fulgora/interlude-2/interlude-2-b", 2, 1.4)
         },
         composition_mode = "randomized"
       },
@@ -35,7 +35,7 @@ return
         name = "C",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/fulgora/interlude-2/interlude-2-c", 4, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/fulgora/interlude-2/interlude-2-c", 4, 1.4)
         },
         composition_mode = "randomized"
       },

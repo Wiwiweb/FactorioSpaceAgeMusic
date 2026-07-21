@@ -17,7 +17,7 @@ return
         name = "A",
         variants =
         {
-          sound_variations(Space_age_path .. "/sound/ambient/fulgora/interlude-3/interlude-3", 14, 1.4)
+          sound_variations(Space_age_ambient_folder_path .. "/fulgora/interlude-3/interlude-3", 14, 1.4)
         },
         composition_mode = "randomized",
       },

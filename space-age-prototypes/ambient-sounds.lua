@@ -8,14 +8,14 @@ data:extend(
     name = "vulcanus-3-hero",
     track_type = "hero-track",
     planet = "vulcanus",
-    sound = {filename = Space_age_path .. "/sound/ambient/vulcanus/vulcanus-3-hero.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/vulcanus/vulcanus-3-hero.ogg", volume = 0.7,},
   },
   {
     type = "ambient-sound",
     name = "vulcanus-1",
     track_type = "main-track",
     planet = "vulcanus",
-    sound = {filename = Space_age_path .. "/sound/ambient/vulcanus/vulcanus-1.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/vulcanus/vulcanus-1.ogg", volume = 0.7,},
     weight = 8
   },
   {
@@ -23,7 +23,7 @@ data:extend(
     name = "vulcanus-2",
     track_type = "main-track",
     planet = "vulcanus",
-    sound = {filename = Space_age_path .. "/sound/ambient/vulcanus/vulcanus-2.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/vulcanus/vulcanus-2.ogg", volume = 0.7,},
     weight = 7
   },
   {
@@ -31,7 +31,7 @@ data:extend(
     name = "vulcanus-3",
     track_type = "main-track",
     planet = "vulcanus",
-    sound = {filename = Space_age_path .. "/sound/ambient/vulcanus/vulcanus-3.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/vulcanus/vulcanus-3.ogg", volume = 0.7,},
     weight = 8
   },
   {
@@ -39,7 +39,7 @@ data:extend(
     name = "vulcanus-4",
     track_type = "main-track",
     planet = "vulcanus",
-    sound = {filename = Space_age_path .. "/sound/ambient/vulcanus/vulcanus-4.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/vulcanus/vulcanus-4.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -47,7 +47,7 @@ data:extend(
     name = "vulcanus-5",
     track_type = "main-track",
     planet = "vulcanus",
-    sound = {filename = Space_age_path .. "/sound/ambient/vulcanus/vulcanus-5.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/vulcanus/vulcanus-5.ogg", volume = 0.7,},
     weight = 8
   },
   {
@@ -55,7 +55,7 @@ data:extend(
     name = "vulcanus-6",
     track_type = "main-track",
     planet = "vulcanus",
-    sound = {filename = Space_age_path .. "/sound/ambient/vulcanus/vulcanus-6.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/vulcanus/vulcanus-6.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -63,7 +63,7 @@ data:extend(
     name = "vulcanus-7",
     track_type = "main-track",
     planet = "vulcanus",
-    sound = {filename = Space_age_path .. "/sound/ambient/vulcanus/vulcanus-7.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/vulcanus/vulcanus-7.ogg", volume = 0.7,},
     weight = 8
   },
   {
@@ -71,7 +71,7 @@ data:extend(
     name = "vulcanus-8",
     track_type = "main-track",
     planet = "vulcanus",
-    sound = {filename = Space_age_path .. "/sound/ambient/vulcanus/vulcanus-8.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/vulcanus/vulcanus-8.ogg", volume = 0.7,},
     weight = 10
   },
   require("space-age-prototypes/vulcanus/vulcanus-9/vulcanus-9"),
@@ -86,14 +86,14 @@ data:extend(
     name = "gleba-1-hero",
     track_type = "hero-track",
     planet = "gleba",
-    sound = {filename = Space_age_path .. "/sound/ambient/gleba/gleba-1-hero.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/gleba/gleba-1-hero.ogg", volume = 0.7,},
   },
   {
     type = "ambient-sound",
     name = "gleba-1",
     track_type = "main-track",
     planet = "gleba",
-    sound = {filename = Space_age_path .. "/sound/ambient/gleba/gleba-1.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/gleba/gleba-1.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -101,7 +101,7 @@ data:extend(
     name = "gleba-2",
     track_type = "main-track",
     planet = "gleba",
-    sound = {filename = Space_age_path .. "/sound/ambient/gleba/gleba-2.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/gleba/gleba-2.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -109,7 +109,7 @@ data:extend(
     name = "gleba-3",
     track_type = "main-track",
     planet = "gleba",
-    sound = {filename = Space_age_path .. "/sound/ambient/gleba/gleba-3.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/gleba/gleba-3.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -117,7 +117,7 @@ data:extend(
     name = "gleba-4",
     track_type = "main-track",
     planet = "gleba",
-    sound = {filename = Space_age_path .. "/sound/ambient/gleba/gleba-4.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/gleba/gleba-4.ogg", volume = 0.7,},
     weight = 8
   },
   {
@@ -125,7 +125,7 @@ data:extend(
     name = "gleba-5",
     track_type = "main-track",
     planet = "gleba",
-    sound = {filename = Space_age_path .. "/sound/ambient/gleba/gleba-5.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/gleba/gleba-5.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -133,7 +133,7 @@ data:extend(
     name = "gleba-6",
     track_type = "main-track",
     planet = "gleba",
-    sound = {filename = Space_age_path .. "/sound/ambient/gleba/gleba-6.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/gleba/gleba-6.ogg", volume = 0.7,},
     weight = 8
   },
   {
@@ -141,7 +141,7 @@ data:extend(
     name = "gleba-8",
     track_type = "main-track",
     planet = "gleba",
-    sound = {filename = Space_age_path .. "/sound/ambient/gleba/gleba-8.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/gleba/gleba-8.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -149,7 +149,7 @@ data:extend(
     name = "gleba-9",
     track_type = "main-track",
     planet = "gleba",
-    sound = {filename = Space_age_path .. "/sound/ambient/gleba/gleba-9.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/gleba/gleba-9.ogg", volume = 0.7,},
     weight = 8
   },
   {
@@ -161,9 +161,9 @@ data:extend(
     {
       variations =
       {
-        {filename = Space_age_path .. "/sound/ambient/gleba/gleba-10-a.ogg", volume = 0.9,},
-        {filename = Space_age_path .. "/sound/ambient/gleba/gleba-10-b.ogg", volume = 1.0,},
-        {filename = Space_age_path .. "/sound/ambient/gleba/gleba-10-c.ogg", volume = 0.7,},
+        {filename = Space_age_ambient_folder_path .. "/gleba/gleba-10-a.ogg", volume = 0.9,},
+        {filename = Space_age_ambient_folder_path .. "/gleba/gleba-10-b.ogg", volume = 1.0,},
+        {filename = Space_age_ambient_folder_path .. "/gleba/gleba-10-c.ogg", volume = 0.7,},
       },
     },
     weight = 12,
@@ -179,14 +179,14 @@ data:extend(
     name = "fulgora-hero",
     track_type = "hero-track",
     planet = "fulgora",
-    sound = {filename = Space_age_path .. "/sound/ambient/fulgora/fulgora-hero.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/fulgora/fulgora-hero.ogg", volume = 0.7,},
   },
   {
     type = "ambient-sound",
     name = "fulgora-1",
     track_type = "main-track",
     planet = "fulgora",
-    sound = {filename = Space_age_path .. "/sound/ambient/fulgora/fulgora-1.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/fulgora/fulgora-1.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -194,7 +194,7 @@ data:extend(
     name = "fulgora-2",
     track_type = "main-track",
     planet = "fulgora",
-    sound = {filename = Space_age_path .. "/sound/ambient/fulgora/fulgora-2.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/fulgora/fulgora-2.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -202,7 +202,7 @@ data:extend(
     name = "fulgora-3",
     track_type = "main-track",
     planet = "fulgora",
-    sound = {filename = Space_age_path .. "/sound/ambient/fulgora/fulgora-3.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/fulgora/fulgora-3.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -210,7 +210,7 @@ data:extend(
     name = "fulgora-4",
     track_type = "main-track",
     planet = "fulgora",
-    sound = {filename = Space_age_path .. "/sound/ambient/fulgora/fulgora-4.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/fulgora/fulgora-4.ogg", volume = 0.7,},
     weight = 10
   },
   require("space-age-prototypes/fulgora/fulgora-5/fulgora-5"),
@@ -219,7 +219,7 @@ data:extend(
     name = "fulgora-6",
     track_type = "main-track",
     planet = "fulgora",
-    sound = {filename = Space_age_path .. "/sound/ambient/fulgora/fulgora-6.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/fulgora/fulgora-6.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -227,7 +227,7 @@ data:extend(
     name = "fulgora-7",
     track_type = "main-track",
     planet = "fulgora",
-    sound = {filename = Space_age_path .. "/sound/ambient/fulgora/fulgora-7.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/fulgora/fulgora-7.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -235,7 +235,7 @@ data:extend(
     name = "fulgora-8",
     track_type = "main-track",
     planet = "fulgora",
-    sound = {filename = Space_age_path .. "/sound/ambient/fulgora/fulgora-8.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/fulgora/fulgora-8.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -243,7 +243,7 @@ data:extend(
     name = "fulgora-9",
     track_type = "main-track",
     planet = "fulgora",
-    sound = {filename = Space_age_path .. "/sound/ambient/fulgora/fulgora-9.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/fulgora/fulgora-9.ogg", volume = 0.7,},
     weight = 10
   },
   require("space-age-prototypes/fulgora/interlude-1/interlude-1"),
@@ -260,7 +260,7 @@ data:extend(
     name = "aquilo-3-hero",
     track_type = "hero-track",
     planet = "aquilo",
-    sound = {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-3-hero.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-3-hero.ogg", volume = 0.7,},
   },
   require("space-age-prototypes/aquilo/aquilo-1/aquilo-1"),
   {
@@ -268,7 +268,7 @@ data:extend(
     name = "aquilo-2",
     track_type = "main-track",
     planet = "aquilo",
-    sound = {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-2.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-2.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -276,7 +276,7 @@ data:extend(
     name = "aquilo-3",
     track_type = "main-track",
     planet = "aquilo",
-    sound = {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-3.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-3.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -284,7 +284,7 @@ data:extend(
     name = "aquilo-4",
     track_type = "main-track",
     planet = "aquilo",
-    sound = {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-4.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-4.ogg", volume = 0.7,},
     weight = 10
   },
   require("space-age-prototypes/aquilo/aquilo-5/aquilo-5"),
@@ -293,7 +293,7 @@ data:extend(
     name = "aquilo-6",
     track_type = "main-track",
     planet = "aquilo",
-    sound = {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-6.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-6.ogg", volume = 0.7,},
     weight = 10
   },
   require("space-age-prototypes/aquilo/aquilo-7/aquilo-7"),
@@ -302,7 +302,7 @@ data:extend(
     name = "aquilo-8",
     track_type = "main-track",
     planet = "aquilo",
-    sound = {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-8.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-8.ogg", volume = 0.7,},
     weight = 10
   },
   {
@@ -310,7 +310,7 @@ data:extend(
     name = "aquilo-9",
     track_type = "main-track",
     planet = "aquilo",
-    sound = {filename = Space_age_path .. "/sound/ambient/aquilo/aquilo-9.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/aquilo/aquilo-9.ogg", volume = 0.7,},
     weight = 10
   },
   require("space-age-prototypes/aquilo/aquilo-10/aquilo-10"),
@@ -325,20 +325,20 @@ data:extend(
     type = "ambient-sound",
     name = "space-2-hero",
     track_type = "hero-track",
-    sound = {filename = Space_age_path .. "/sound/ambient/space/space-2-hero.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/space/space-2-hero.ogg", volume = 0.7,},
   },
   {
     type = "ambient-sound",
     name = "space-1",
     track_type = "main-track",
-    sound = {filename = Space_age_path .. "/sound/ambient/space/space-1.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/space/space-1.ogg", volume = 0.7,},
     weight = 10
   },
   {
     type = "ambient-sound",
     name = "space-2",
     track_type = "main-track",
-    sound = {filename = Space_age_path .. "/sound/ambient/space/space-2.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/space/space-2.ogg", volume = 0.7,},
     weight = 10
   },
   require("space-age-prototypes/space/space-3/space-3"),
@@ -346,14 +346,14 @@ data:extend(
     type = "ambient-sound",
     name = "space-5",
     track_type = "main-track",
-    sound = {filename = Space_age_path .. "/sound/ambient/space/space-5.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/space/space-5.ogg", volume = 0.7,},
     weight = 10
   },
   {
     type = "ambient-sound",
     name = "space-6",
     track_type = "main-track",
-    sound = {filename = Space_age_path .. "/sound/ambient/space/space-6.ogg", volume = 0.7,},
+    sound = {filename = Space_age_ambient_folder_path .. "/space/space-6.ogg", volume = 0.7,},
     weight = 10
   },
   require("space-age-prototypes/space/space-9/space-9"),
