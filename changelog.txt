@@ -2,6 +2,8 @@
 Version: 1.1.1
 Date: ????
   Changes:
+    - Included an empty folder in the mod zip for easier manual assembly.
+
 ---------------------------------------------------------------------------------------------------
 Version: 1.1
 Date: ????
