@@ -5,8 +5,8 @@ Date: ????
     - Included an empty folder in the mod zip for easier manual assembly.
 
 ---------------------------------------------------------------------------------------------------
-Version: 1.1
-Date: ????
+Version: 1.1.0
+Date: 2026-07-20
   Changes:
     - Updated for 2.1 *BUT you now need to link or copy the songs yourself*. See mod page for details.
 
