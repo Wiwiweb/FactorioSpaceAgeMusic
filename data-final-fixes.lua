@@ -51,16 +51,25 @@ for name, sound in pairs(original_ambient_sounds) do
             sound.weight = 10 -- Down to default weight
         end
 
-        -- Make a copy of the ambient-sound for every location
-        for _, location in pairs(locations) do
-            local new_sound = table.deepcopy(sound)
-            new_sound.name = sound.name .. "-for-" .. location
-            if location == "space" then
-                new_sound.planet = nil
-            else
-                new_sound.planet = location
+        if helpers.compare_versions(mods["base"], "2.1.13") < 0 then
+            -- Make a copy of the ambient-sound for every location
+            for _, location in pairs(locations) do
+                local new_sound = table.deepcopy(sound)
+                new_sound.name = sound.name .. "-for-" .. location
+                if location == "space" then
+                    new_sound.planet = nil
+                else
+                    new_sound.planet = location
+                end
+                table.insert(new_ambient_sounds, new_sound)
             end
-            table.insert(new_ambient_sounds, new_sound)
+        else
+            -- Add all non-hero tracks to all surfaces, in accordance with 2.1.13 API changes
+            -- https://lua-api.factorio.com/2.1.13/prototypes/AmbientSound.html#play_on_all_surfaces
+            sound.planet = nil
+            sound.planets = nil
+            sound.play_on_all_surfaces = true
+            table.insert(new_ambient_sounds, sound)
         end
         table.insert(track_names_per_type[sound.track_type], name)
     end
