@@ -3,7 +3,7 @@ return
   type = "ambient-sound",
   name = "fulgora-interlude-2",
   track_type = "main-track",
-  planet = "fulgora",
+  planets = {"fulgora"},
   weight = 15,
 
   variable_sound =

@@ -3,7 +3,7 @@ return
   type = "ambient-sound",
   name = "vulcanus-interlude-2",
   track_type = "main-track",
-  planet = "vulcanus",
+  planets = {"vulcanus"},
   weight = 30,
 
   variable_sound =

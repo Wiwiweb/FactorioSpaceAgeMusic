@@ -2,8 +2,9 @@ return
 {
   type = "ambient-sound",
   name = "vulcanus-9",
+  title = "Vulcanus 9 - Molten Dreams",
   track_type = "main-track",
-  planet = "vulcanus",
+  planets = {"vulcanus"},
   weight = 15,
 
   variable_sound =

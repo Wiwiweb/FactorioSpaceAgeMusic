@@ -3,7 +3,7 @@ return
   type = "ambient-sound",
   name = "aquilo-interlude-2",
   track_type = "main-track",
-  planet = "aquilo",
+  planets = {"aquilo"},
   weight = 20,
 
   variable_sound =

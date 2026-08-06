@@ -2,8 +2,9 @@ return
 {
   type = "ambient-sound",
   name = "aquilo-7",
+  title = "Aquilo 7 - Drift Ice",
   track_type = "main-track",
-  planet = "aquilo",
+  planets = {"aquilo"},
   weight = 10,
 
   variable_sound =

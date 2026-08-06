@@ -2,8 +2,9 @@ return
 {
   type = "ambient-sound",
   name = "vulcanus-10",
+  title = "Vulcanus 10 - Smouldering Fire",
   track_type = "main-track",
-  planet = "vulcanus",
+  planets = {"vulcanus"},
   weight = 15,
 
   variable_sound =

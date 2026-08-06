@@ -2,6 +2,7 @@ return
 {
   type = "ambient-sound",
   name = "space-3",
+  title = "Space 3 - Orbital Mechanics",
   track_type = "main-track",
   weight = 10,
 

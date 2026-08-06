@@ -3,7 +3,7 @@ return
   type = "ambient-sound",
   name = "gleba-interlude-4",
   track_type = "main-track",
-  planet = "gleba",
+  planets = {"gleba"},
   weight = 25,
 
   variable_sound =

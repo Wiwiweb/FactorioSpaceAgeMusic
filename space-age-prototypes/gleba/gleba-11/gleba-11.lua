@@ -2,8 +2,9 @@ return
 {
   type = "ambient-sound",
   name = "gleba-11",
+  title = "Gleba 11 - Sporangia",
   track_type = "main-track",
-  planet = "gleba",
+  planets = {"gleba"},
   weight = 12,
 
   variable_sound =
