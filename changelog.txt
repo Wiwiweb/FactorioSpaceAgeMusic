@@ -3,6 +3,7 @@ Version: 1.1.2
 Date: ????
   Changes:
     - Updated for Factorio 2.1.7.
+    - Added "Now Playing" as a recommended optional mod.
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
